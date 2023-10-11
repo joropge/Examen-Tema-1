@@ -23,7 +23,7 @@ addEventListener("DOMContentLoaded", () => {
       area.textContent = areaw + areaRes;
       perimetro.textContent = perw + perimetroRes;
       pitagoras.textContent = diagw + diagonalRes;
-    } else {/**si no es un número entra y sale le error */
+    } else {/**si no es un número entra y sale el error */
       let errorM = "Ingrese un valor válido";
       fail.textContent = errorM;
     }
