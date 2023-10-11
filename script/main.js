@@ -1,3 +1,8 @@
+/**
+ * Usuario: Jorge Ordiz Perez
+ * GitHub:
+ */
+
 addEventListener("DOMContentLoaded", () => {
   const btn = document.getElementById("btn");
 
