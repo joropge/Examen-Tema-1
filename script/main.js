@@ -1,6 +1,6 @@
 /**
  * Usuario: Jorge Ordiz Perez
- * GitHub:
+ * GitHub: https://github.com/joropge/Examen-Tema-1.git
  */
 
 addEventListener("DOMContentLoaded", () => {
