@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio área de rectángulo</title>
+    <link rel="stylesheet" href="/styles/style.css" /><!--Este link es cnecesaario para que se enlace el css-->
+    <link rel="stylesheet" href="/favicon.ico"/>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h1 class="title">
+          Calculadora de área, perímtro y diagonal de un rectángulo
+        </h1>
+        <form action="">
+          <div class="wrapper">
+            <div class="longi">
+              <label for="height">Longitud:</label>
+              <input
+                id="long"
+                type="number"
+                placeholder="Ingrese la longitud"
+              /><!-- Con placeholder conseguimos poner un texto sombreado que desaparece
+                para que el usuario sepa que ingresar-->
+            </div>
+            <div class="ancho">
+              <label for="width">Ancho: </label>
+              <input id="ancho" type="number" placeholder="Ingrese el ancho" />
+            </div>
+            <button type="button" onclick="" class="button" id="btn">
+              Calcular
+            </button>
+          </div>
+        </form>
+
+        <p><span id="area"></span></p>
+        <p><span id="perimetro"></span></p>
+        <p><span id="pitagoras"></span></p>
+
+        <p id="error"></p>
+      </div>
+    </div>
+    <script src="/script/main.js"></script>
+  </body>
+</html>
